@@ -1,0 +1,27 @@
+{
+  "name": "seed-test",
+  "version": "1.0.0",
+  "description": "angluar seed demo test",
+  "repository": "https://github.com/LongOrange/angular-seed-demo.git",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "seed"
+  ],
+  "author": "mj@cheng",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-cli": "^1.0.1",
+    "karma-junit-reporter": "^1.2.0",
+    "protractor": "^4.0.14"
+  }
+}

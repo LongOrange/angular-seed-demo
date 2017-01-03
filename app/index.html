@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <ul class="menu">
+        <li><a ng-href="#!/view1">view1</a></li>
+        <li><a ng-href="#!/view2">view2</a></li>
+        <li><a ng-href="#!/view2">view2</a></li>
+    </ul>
+    <div ng-view></div>
+    <div>此处用来显示一个自定义指令app-version：<span app-version></span></div>
+    <div>{{desc}}</div>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="tpls/view1.js"></script> <!-- 视图模块1 -->
+    <script src="tpls/view2.js"></script> <!-- 视图模块2 -->
+    <script src="js/version.js"></script> <!-- 自定义模块，包括自定义指令和自定义过滤器模块 -->
+    <script src="js/directive.js"></script>  <!-- 自定义指令模块 -->
+    <script src="js/filter.js"></script>   <!-- 自定义过滤器模块 -->
+</body>
+</html>
